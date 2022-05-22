@@ -1,0 +1,11 @@
+workflows:
+  my-workflow:
+    name: My workflow
+    scripts:
+      - name: say hello
+        script: echo "Hello Codemagician!"
+  unity-ios-workflow:
+    name: Unity iOS Workflow
+    scripts:
+      - name: say hello
+        script: echo "Hello Codemagician ios!"
